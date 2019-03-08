@@ -1,0 +1,20 @@
+.container{
+    background: rgb(247,247,255);
+    
+}
+.container-inside{
+    width: 1130px;
+    background-image: url(../imges/xiaomi9.jpeg);
+    height: 588px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-nav{
+    float: right;
+    bottom: -63px;
+    right: 0;
+}

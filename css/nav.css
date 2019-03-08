@@ -1,0 +1,64 @@
+.nav-outside{
+    background: rgb(239,239,239);
+}
+.nav .location{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url('../imges/list-loc.png');
+    position:absolute;
+    left:0;
+    top: 50%;
+    margin-top: -9.5px;
+}
+.nav-left a:first-of-type{
+    margin-left: 20px;
+}
+.nav .admin{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url('../imges/list-adm.png');
+}
+.nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 50px;
+    position:relative;
+    
+}
+.nav-left{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    line-height: 50px;
+    font-size: 10px;
+}
+.nav-right{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    line-height: 50px;
+    font-size: 10px;
+}
+.nav-warp{
+    text-align:center;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-right .admin{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -9.5px;
+}
+.nav a{
+    text-decoration: none;
+    color:#333;
+}
+.nav-warp a{
+    padding:0 30px;
+}

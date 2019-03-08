@@ -1,0 +1,20 @@
+.container-feedback{
+    margin-bottom: 30px;
+}
+.container-feedback ul{
+    list-style: none;
+}
+.weichat{
+    display: block;
+    width: 85px;
+    height: 85px;
+    padding: 2px;
+    border: 1px solid #f0f0f4;
+    float: left;
+    margin-right: 10px;
+}
+.weichat+li{
+    color: rgb(24, 190, 190);
+    font-size: 25px;
+    margin:10px 0;
+}

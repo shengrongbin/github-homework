@@ -1,0 +1,96 @@
+.other-way-title p{
+    position: absolute;
+    bottom: 85px;
+    left: 165px;
+}
+.line-left{
+    width: 130px;
+    height: 1px;
+    border:0.5px solid  rgb(102,102,102);
+    position: absolute;
+    left:35px;
+    bottom:92px;
+    box-sizing: border-box;
+}
+.line-right{
+    width: 138px;
+    height: 1px;
+    border:0.5px solid  rgb(102,102,102);
+    position: absolute;
+    right:35px;
+    bottom:92px;
+    box-sizing: border-box;
+}
+.other-way{
+    /* border: 1px solid #333; */
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    width: 350px;
+}
+.other-way li{
+    float: left;
+    list-style: none;
+}
+.other-way a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #333; */
+    margin: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+}
+.other-way ul{
+    margin-left: 50px;
+}
+.other-way i{
+    display: inline-block;
+    position: absolute;
+    background-image: url(../imges/other-ways.png);
+    /* width: 18px;
+    height: 18px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0; */
+}
+.way-qq{
+    background:rgb(2,136,209);
+}
+.qq{
+    background-position-x: -19px;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0;
+}
+.way-weibo{
+    background: rgb(211,47,47);
+}
+.weibo{
+    background-position-x: -38px;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0;
+}
+.way-zhifubao{
+    background: rgb(0,170,238);
+}
+.zhifubao{
+    background-position-x: -57px;
+    width: 22px;
+    height: 18px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0;
+}
+.way-weixin{
+    background: rgb(0,210,13);
+}
+.weixin{
+    background-position-x: -85px;
+    width: 22px;
+    height: 18px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0;
+}

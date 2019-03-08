@@ -1,0 +1,66 @@
+.container-nav{
+    position: relative;
+    width: 410px;
+    height: 525px;
+    background: white;
+    /* border: 1px solid rgb(102,102,102); */
+}
+.text-uesr{
+    width: 350px;
+    height: 50px;
+    /* border: 1px solid rgb(102,102,102); */
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.text-password{
+    width: 350px;
+    height: 50px;
+    /* border: 1px solid rgb(102,102,102); */
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.nav-title li{
+    float: left;
+    list-style: none;
+    line-height: 40px;
+}
+.nav-title a{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    font-size: 25px;
+}
+.nav-title a:hover{
+    color: rgb(255,103,0);
+}
+.nav-title-word{
+    font-size: 20px;
+    padding: 0 40px;
+}
+.text-go{
+    width: 350px;
+    height: 50px;
+    /* border: 1px solid rgb(102,102,102); */
+    background: rgb(255,103,0);
+    display: block;
+    color:#eee;
+}
+.nav-title{
+    position: absolute;
+    left: 7px;
+    top: 30px;
+}
+.nav-text{
+    position: absolute;
+    left: 30px;
+    top: 95px;
+}
+.nav-title-cut{
+    font-size: 30px;
+}
+.special a{
+    color: rgb(255,103,0);
+}
