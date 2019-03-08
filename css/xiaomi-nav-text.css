@@ -57,10 +57,24 @@
     position: absolute;
     left: 30px;
     top: 95px;
+    display: inline-block;
 }
 .nav-title-cut{
     font-size: 30px;
+    position: absolute;
+    top: 29px;
+    left: 170px;
 }
 .special a{
     color: rgb(255,103,0);
+}
+.saoma{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 95px;
+    left: 107px;
+}
+.saoma{
+    display: none;
 }

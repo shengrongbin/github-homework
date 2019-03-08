@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>小米登录</title>
-    <link rel="stylesheet" href="../css/title (2).css">
-    <link rel="stylesheet" href="../css/container.css">
-    <link rel="stylesheet" href="../css/nav-text.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="../css/other-way.css">
-    <link rel="stylesheet" href="../css/bottom (2).css">
+    <title>小米商城</title>
+    <link rel="stylesheet" href="../css/xiami-container.css">
+    <link rel="stylesheet" href="../css/xiaomi-bottom .css">
+    <link rel="stylesheet" href="../css/xiaomi-login.css">
+    <link rel="stylesheet" href="../css/xiaomi-nav-text.css">
+    <link rel="stylesheet" href="../css/xiaomi-other-way.css">
+    <link rel="stylesheet" href="../css/xiaomi-title .css"> 
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
     <div class="title">
@@ -26,18 +27,26 @@
        
         </a>
         <div class="container-nav">
+            <div class="nav-title-cut">丨</div>
+            <div class="change">
                 <div class="nav-title">
                     <ul>
                         <li class="nav-title-word special"><a href="#">账号登录</a></li>
-                        <li class="nav-title-cut">丨</li>
+                        <!-- <li class="nav-title-cut">丨</li> -->
                         <li class="nav-title-word"><a href="#">扫码登录</a></li>
                     </ul>
                 </div>
+            <div class="nav-tab">
                 <div class="nav-text">
                     <input type="text" class="text-uesr" placeholder="邮箱/手机号码/小米ID">
                     <input type="password" class="text-password" placeholder="密码">
                     <input type="button" class="text-go" value="登录">
                 </div>
+                <div class="saoma">
+                    <img src="../imges/saoma.png" alt="">
+                </div>
+            </div>
+        </div>
                 <div class="container-login">
                     <a href="#">手机短信注册/登录</a>
                     <ul>
@@ -87,5 +96,12 @@
           </ul>
     </div>
     </div>
+    <script>
+        $(".nav-title-word").click(function(){
+            $(this).addClass("special").siblings().removeClass("special");
+            console.log($(this).index())
+            $(".nav-tab div").eq($(this).index()).show().siblings().hide();  
+        })
+    </script>
 </body>
 </html>
